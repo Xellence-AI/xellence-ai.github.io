@@ -27,7 +27,7 @@ AI adoption, systems integration, industrial IoT, network connectivity, cloud se
 
 ## Leadership
 
-- [Jeffrey Chang, Founder](https://xellence.ai/#profile): 20+ years in software development, systems integration, computer virtualization, network connectivity, and industrial IoT. 10+ years leading product development and professional services teams, delivering connectivity solutions and safety-critical products to North American freight and passenger railroads.
+- [Jeffrey Chang, Founder](https://xellence.ai/#profile): 20+ years of systems integration, virtualization, network connectivity, and industrial IoT applied to practical AI engineering. Most recently focused on building inferencing platforms and agentic applications.
 
 ## Contact
 

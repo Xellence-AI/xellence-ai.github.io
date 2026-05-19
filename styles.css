@@ -536,7 +536,7 @@ p {
 /* Profile */
 .profile-grid {
   display: grid;
-  grid-template-columns: 280px minmax(0, 1fr);
+  grid-template-columns: 180px minmax(0, 1fr);
   gap: 2.5rem;
   align-items: center;
   padding: 2.2rem;
@@ -545,8 +545,8 @@ p {
 .profile-photo-frame {
   position: relative;
   margin: 0;
-  aspect-ratio: 1;
-  border-radius: 24px;
+  aspect-ratio: 4 / 5;
+  border-radius: 20px;
   overflow: hidden;
   border: 1px solid var(--line-strong);
   background: linear-gradient(160deg, rgba(94, 224, 255, 0.18), rgba(169, 116, 255, 0.18));
@@ -575,10 +575,11 @@ p {
 }
 
 .profile-name {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--text);
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  font-weight: 500;
 }
 
 .profile-copy {
@@ -709,7 +710,7 @@ p {
     text-align: left;
   }
   .profile-photo-frame {
-    max-width: 260px;
+    max-width: 200px;
   }
   .contact-card {
     grid-template-columns: 1fr;
