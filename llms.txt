@@ -1,0 +1,35 @@
+# Xellence AI
+
+> Xellence AI engineers practical AI systems and integrations for industrial, enterprise, and operational environments. Our work is judged on accuracy, reliability, and efficiency — and ends with software the customer's team can operate.
+
+Founded by Jeffrey Chang. Headquartered in North America. Contact: hello@xellence.ai
+
+## Mantra
+
+Collaboration, Quality, and The Future.
+
+## What we deliver
+
+- [AI Readiness & Roadmaps](https://xellence.ai/#solutions): Turn business goals into AI programs with the engineering decisions made explicit — data pipelines, evaluation metrics, system architecture, and operations.
+- [Enterprise & Operational Integration](https://xellence.ai/#solutions): Connect legacy systems, cloud, edge devices, and partner APIs into workflows that are deterministic where they must be and observable end-to-end.
+- [Industrial Intelligence](https://xellence.ai/#solutions): Real-time analytics, control automation, and decision support — built for the latency, safety, and reliability constraints of field and rail environments.
+- [Secure Digital Products](https://xellence.ai/#solutions): Web interfaces, cloud services, and cryptography-aware platforms for regulated, mission-critical workloads — security and correctness designed in, not bolted on.
+
+## Disciplines
+
+AI adoption, systems integration, industrial IoT, network connectivity, cloud services, web interfaces, applied cryptography, computer virtualization, software development.
+
+## Beliefs
+
+- [Collaboration](https://xellence.ai/#beliefs): We build alongside our customers, not around them. Open communication and shared decisions surface the real constraints early — so the system we deliver reflects actual requirements, not assumptions.
+- [Quality](https://xellence.ai/#beliefs): Quality is engineered, not promised. Rigorous reviews, automated tests, and measurable acceptance criteria — every release held to the same standard, every regression traced to its cause.
+- [The Future](https://xellence.ai/#beliefs): We build for what's next without breaking what works today. New tools and techniques are evaluated on the merits — adopted when they earn their place, deferred when they don't.
+
+## Leadership
+
+- [Jeffrey Chang, Founder](https://xellence.ai/#profile): 20+ years in software development, systems integration, computer virtualization, network connectivity, and industrial IoT. 10+ years leading product development and professional services teams, delivering connectivity solutions and safety-critical products to North American freight and passenger railroads.
+
+## Contact
+
+- Email: [hello@xellence.ai](mailto:hello@xellence.ai)
+- Website: https://xellence.ai

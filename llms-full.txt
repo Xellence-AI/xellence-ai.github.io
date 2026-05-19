@@ -1,0 +1,111 @@
+# Xellence AI — AI and Systems Integration
+
+## Summary
+
+Xellence AI engineers practical AI systems and integrations for industrial,
+enterprise, and operational environments. We design AI-enabled systems and
+integrations that are correct, observable, and built to run in production —
+across industrial, operational, and digital environments.
+
+Tagline: AI · Systems Integration · Operations
+Mantra: Collaboration, Quality, and The Future.
+Founder: Jeffrey Chang
+Contact: hello@xellence.ai
+Website: https://xellence.ai
+
+---
+
+## About
+
+We engineer AI systems and integrations that are correct, observable, and built
+to run in production — across industrial, operational, and digital environments.
+
+We work across AI adoption, systems integration, industrial IoT, network
+connectivity, cloud services, web interfaces, and applied cryptography.
+
+Every engagement is judged on accuracy, reliability, and efficiency — and ends
+with software your team can operate.
+
+---
+
+## What we deliver
+
+### 1. AI Readiness & Roadmaps
+
+Turn business goals into AI programs with the engineering decisions made
+explicit: data, evaluation, architecture, and operations.
+
+Focus areas: data pipelines, evaluation, architecture.
+
+### 2. Enterprise & Operational Integration
+
+Connect legacy systems, cloud, edge, and partner APIs into workflows that are
+deterministic where they must be and observable end-to-end.
+
+Focus areas: APIs & events, edge / cloud, observability.
+
+### 3. Industrial Intelligence
+
+Real-time analytics, control automation, and decision support — built for the
+latency, safety, and reliability constraints of field and rail.
+
+Focus areas: industrial IoT (IIoT), rail, real-time analytics.
+
+### 4. Secure Digital Products
+
+Web interfaces, cloud services, and cryptography-aware platforms for regulated,
+mission-critical workloads — security and correctness designed in, not bolted
+on.
+
+Focus areas: web UI, cloud, cryptography.
+
+---
+
+## What we believe
+
+### Collaboration
+
+We build alongside our customers, not around them. Open communication and
+shared decisions surface the real constraints early — so the system we deliver
+reflects actual requirements, not assumptions.
+
+### Quality
+
+Quality is engineered, not promised. Rigorous reviews, automated tests, and
+measurable acceptance criteria — every release held to the same standard,
+every regression traced to its cause.
+
+### The Future
+
+We build for what's next without breaking what works today. New tools and
+techniques are evaluated on the merits — adopted when they earn their place,
+deferred when they don't.
+
+---
+
+## Leadership
+
+### Jeffrey Chang — Founder
+
+Jeffrey Chang built Xellence AI from the ground up with an engineering mindset
+shaped by systems integration, operational reliability, and practical AI
+delivery. With over twenty years of experience in software development, systems
+integration, computer virtualization, network connectivity, and industrial IoT,
+Jeffrey brings a wealth of expertise to the table.
+
+For the past ten years, he has led product development and professional
+services teams, delivering connectivity solutions and safety-critical products
+to North American freight and passenger railroads.
+
+Areas of expertise: systems integration, industrial IoT, network connectivity,
+virtualization, AI delivery.
+
+---
+
+## Contact
+
+Tell us what you need to connect, automate, or ship. We'll start from the
+engineering reality and work back to a plan.
+
+Email: hello@xellence.ai
+Website: https://xellence.ai
