@@ -591,6 +591,40 @@ p {
   font-size: 1.02rem;
 }
 
+.affiliation-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.affiliation-list li {
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.affiliation-list li::before {
+  content: "→ ";
+  color: var(--accent-1);
+  margin-right: 0.1em;
+}
+
+.affiliation-list a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-strong);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.affiliation-list a:hover {
+  color: var(--accent-1);
+  border-color: var(--accent-1);
+}
+
 .chip-row {
   list-style: none;
   padding: 0;
