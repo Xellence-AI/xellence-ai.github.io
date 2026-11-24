@@ -1,35 +1,70 @@
 # Xellence AI
 
-> Xellence AI engineers practical AI systems and integrations for industrial, enterprise, and operational environments. Our work is judged on accuracy, reliability, and efficiency — and ends with software the customer's team can operate.
+> Xellence AI enables private, on-premises AI for small and mid-sized businesses and puts it to work on everyday tasks: answering customers, handling documents, preparing quotes and reports, and finding information fast. Customer data stays on the customer's own equipment, costs stay predictable (no per-seat fees), and no in-house AI team is needed.
 
-Founded by Jeffrey Chang. Headquartered in North America. Contact: hello@xellence.ai
+Xellence AI is the trade name of Xellence Solutions LLC. Owner: Jeffrey Chang. Headquartered in North America. Contact: hello@xellence.ai
 
-## Mantra
+Xellence AI solutions are powered by Nurol AI's private AI products, NurOS™ and NuroMAX™, which the Xellence AI team sets up and integrates for each client.
 
-Collaboration, Quality, and The Future.
+## Who it's for
+
+Small and mid-sized business owners who want the benefits of AI without an enterprise budget or the risk of sending company data to public AI services.
+
+## Results
+
+- [Output per person](https://xellence.ai/#results): drafting, summarizing, and routine answers take minutes, not hours.
+- [Speed to customers](https://xellence.ai/#results): quotes and replies go out the same day, drafted from the business's own materials.
+- [Company know-how](https://xellence.ai/#results): manuals, contracts, and past projects answer questions on the spot.
+- [Value per dollar](https://xellence.ai/#results): one system serves the whole team, with no fee for each new hire.
+
+Goals (for example hours saved or response time) are agreed before work starts and measured on the customer's own work.
+
+## Why on-premises
+
+- [Comparison with public AI subscriptions](https://xellence.ai/#on-prem): data stays on the premises instead of outside servers; a system the customer owns instead of per-user fees; access set by the business with every use logged; connected privately to company documents and systems; keeps working during internet outages; free choice of AI models. Routine, non-sensitive tasks can still use cloud AI under the customer's rules.
 
 ## What we deliver
 
-- [AI Readiness & Roadmaps](https://xellence.ai/#solutions): Turn business goals into AI programs with the engineering decisions made explicit — data pipelines, evaluation metrics, system architecture, and operations.
-- [Enterprise & Operational Integration](https://xellence.ai/#solutions): Connect legacy systems, cloud, edge devices, and partner APIs into workflows that are deterministic where they must be and observable end-to-end.
-- [Industrial Intelligence](https://xellence.ai/#solutions): Real-time analytics, control automation, and decision support — built for the latency, safety, and reliability constraints of field and rail environments.
-- [Secure Digital Products](https://xellence.ai/#solutions): Web interfaces, cloud services, and cryptography-aware platforms for regulated, mission-critical workloads — security and correctness designed in, not bolted on.
+- [AI Opportunity Assessment](https://xellence.ai/#solutions): finds where AI saves the most, with a clear plan and a fixed quote.
+- [Private AI, On Your Premises](https://xellence.ai/#solutions): a system sized for the team, ready to use from day one.
+- [AI Assistants for Your Work](https://xellence.ai/#solutions): customer service, quotes, document review, and reporting, all drawing on the business's own documents.
+- [Connected to Your Tools](https://xellence.ai/#solutions): email, files, CRM, ERP, and accounting.
+- [Security & Access Control](https://xellence.ai/#solutions): company sign-in, role-based permissions, and a record of every use.
+- [Training & Support](https://xellence.ai/#solutions): hands-on training, ongoing support, and new uses over time.
 
-## Disciplines
+## Powered by
 
-AI adoption, systems integration, industrial IoT, network connectivity, cloud services, web interfaces, applied cryptography, computer virtualization, software development.
+- [NurOS™](https://nurol.ai): the private AI platform from Nurol AI. Runs AI models on the customer's own hardware, under the customer's rules.
+- [NuroMAX™](https://nurol.ai): no-code AI agents from Nurol AI for IT operations, help desk, reporting, and more.
 
-## Beliefs
+## How it works
 
-- [Collaboration](https://xellence.ai/#beliefs): We build alongside our customers, not around them. Open communication and shared decisions surface the real constraints early — so the system we deliver reflects actual requirements, not assumptions.
-- [Quality](https://xellence.ai/#beliefs): Quality is engineered, not promised. Rigorous reviews, automated tests, and measurable acceptance criteria — every release held to the same standard, every regression traced to its cause.
-- [The Future](https://xellence.ai/#beliefs): We build for what's next without breaking what works today. New tools and techniques are evaluated on the merits — adopted when they earn their place, deferred when they don't.
+1. Talk: an open conversation about the business's goals and where the team's time goes.
+2. Plan: choose the first tasks, size the system, and provide a fixed quote.
+3. Set up: we set up and test everything on-site, then train the team.
+4. Grow: review results together and add new uses when the business is ready.
 
-## Leadership
+## Values
 
-- [Jeffrey Chang, Founder](https://xellence.ai/#profile): 20+ years of systems integration, virtualization, network connectivity, and industrial IoT applied to practical AI engineering. Most recently focused on building inferencing platforms and agentic applications.
+Collaboration · Quality · The Future.
+
+- Collaboration: we learn how a business works before we recommend anything.
+- Quality: every system is tested and measured against goals set together.
+- The Future: we adopt new AI when it earns its place, not because it's the latest trend.
+
+Backed by 20+ years in systems integration, industrial IoT, networking, cloud and web, and data security.
+
+## People
+
+- [Jeffrey Chang, Owner](https://xellence.ai/profile/): 20+ years in systems integration, virtualization, networking, and industrial IoT. Also Co-Founder & COO of Nurol AI. LinkedIn: https://www.linkedin.com/in/jeffsschang/
+
+## Optional
+
+- [Full content for LLMs](https://xellence.ai/llms-full.txt): the whole site, including the FAQ, as plain text.
 
 ## Contact
 
 - Email: [hello@xellence.ai](mailto:hello@xellence.ai)
 - Website: https://xellence.ai
+
+© 2024–2026 Xellence Solutions LLC. NurOS™ and NuroMAX™ are products and trademarks of Nurol, Inc.

@@ -55,3 +55,7 @@ User-agent: DuckAssistBot
 Allow: /
 
 Sitemap: https://xellence.ai/sitemap.xml
+
+# Plain-text summaries for AI assistants (llmstxt.org)
+# https://xellence.ai/llms.txt
+# https://xellence.ai/llms-full.txt

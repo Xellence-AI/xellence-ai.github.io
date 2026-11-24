@@ -3,274 +3,543 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Xellence AI — AI and Systems Integration</title>
+    <title>Xellence AI — Private AI for Small &amp; Mid-Sized Businesses</title>
     <meta
       name="description"
-      content="Xellence AI engineers practical AI systems and integrations for industrial, enterprise, and operational environments — built for accuracy, reliability, and observability."
+      content="Private, on-premises AI for small and mid-sized businesses. Your data stays yours, your costs stay predictable, and your team gets more done."
     />
-    <meta name="theme-color" content="#0b1124" />
+    <link rel="canonical" href="https://xellence.ai/" />
+    <meta name="theme-color" content="#070a16" />
+    <script>
+      // Old links to the profile section (xellence.ai/#profile) now go to the profile page.
+      if (location.hash === '#profile') location.replace('./profile/');
+    </script>
+    <script>
+      // Theme before first paint: saved choice, else the system setting.
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem('xl-theme'); } catch (e) {}
+        if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', t === 'light' ? '#f6f8fc' : '#070a16');
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32.png" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon-180.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Xellence AI" />
+    <meta property="og:url" content="https://xellence.ai/" />
+    <meta property="og:title" content="Xellence AI — Private AI for Small &amp; Mid-Sized Businesses" />
+    <meta property="og:description" content="Private, on-premises AI for small and mid-sized businesses. Your data stays yours, your costs stay predictable, and your team gets more done." />
+    <meta property="og:image" content="https://xellence.ai/images/og-image-1200x630.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Xellence AI: Private AI for small &amp; mid-sized businesses" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Xellence AI — Private AI for Small &amp; Mid-Sized Businesses" />
+    <meta name="twitter:description" content="Private, on-premises AI for small and mid-sized businesses. Your data stays yours, your costs stay predictable, and your team gets more done." />
+    <meta name="twitter:image" content="https://xellence.ai/images/og-image-1200x630.png" />
+    <!-- Plain-text summaries for AI assistants and LLM crawlers -->
+    <link rel="alternate" type="text/markdown" title="LLM summary" href="/llms.txt" />
+    <link rel="alternate" type="text/markdown" title="LLM full content" href="/llms-full.txt" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://xellence.ai/#org",
+            "name": "Xellence AI",
+            "legalName": "Xellence Solutions LLC",
+            "url": "https://xellence.ai/",
+            "logo": "https://xellence.ai/images/mark-color-light-512.png",
+            "image": "https://xellence.ai/images/og-image-1200x630.png",
+            "email": "hello@xellence.ai",
+            "description": "Private, on-premises AI for small and mid-sized businesses. Your data stays yours, your costs stay predictable, and your team gets more done.",
+            "slogan": "Collaboration · Quality · The Future",
+            "knowsAbout": [
+              "Private AI",
+              "On-premises AI",
+              "AI assistants",
+              "Systems integration",
+              "Industrial IoT",
+              "Networking",
+              "Data security"
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "sales",
+              "email": "hello@xellence.ai"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://xellence.ai/#website",
+            "url": "https://xellence.ai/",
+            "name": "Xellence AI",
+            "publisher": {
+              "@id": "https://xellence.ai/#org"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://xellence.ai/#jeffrey-chang",
+            "name": "Jeffrey Chang",
+            "jobTitle": "Owner",
+          "url": "https://xellence.ai/profile/",
+          "sameAs": [
+            "https://www.linkedin.com/in/jeffsschang/"
+          ],
+            "worksFor": {
+              "@id": "https://xellence.ai/#org"
+            },
+            "image": "https://xellence.ai/jeffrey-chang.jpg"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://xellence.ai/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do you work with our IT team?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As partners. Your IT team stays in charge of your systems, and we bring the AI expertise, from setup to training and support. If you don't have an IT team, we take care of it all for you."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my business big enough?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "If several people spend their days on customers, documents, or reports, yes. We size the system to your team."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What does it cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It depends on your team and goals. After the assessment, you get a fixed quote for equipment, setup, and support, with no per-seat fees."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is private AI as capable as public AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "For everyday work like writing, summarizing, and searching documents, yes. When a task needs more, non-sensitive work can go to a cloud service under your rules."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will our data be used to train someone else's AI?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Your data stays on your equipment and is never shared without your permission."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="aurora" aria-hidden="true">
-      <span class="aurora-blob aurora-blob-a"></span>
-      <span class="aurora-blob aurora-blob-b"></span>
-      <span class="aurora-blob aurora-blob-c"></span>
-    </div>
-    <div class="grid-overlay" aria-hidden="true"></div>
+    <!-- Brand mark sprite ("core spark", tile-free) -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+      <defs>
+        <linearGradient id="xl-gu" gradientUnits="userSpaceOnUse" x1="13" y1="13" x2="51" y2="51">
+          <stop offset="0" style="stop-color: var(--mk-1)" />
+          <stop offset=".5" style="stop-color: var(--mk-2)" />
+          <stop offset="1" style="stop-color: var(--mk-3)" />
+        </linearGradient>
+      <linearGradient id="xl-sg" gradientUnits="userSpaceOnUse" x1="23" y1="23" x2="41" y2="41">
+          <stop offset="0" style="stop-color: var(--mk-1)" />
+          <stop offset=".5" style="stop-color: var(--mk-2)" />
+          <stop offset="1" style="stop-color: var(--mk-3)" />
+        </linearGradient>
+      </defs>
+      <symbol id="xl-spark" viewBox="22.5 22.5 19 19">
+        <path d="M32 23 C33.44 30.56 33.44 30.56 41 32 C33.44 33.44 33.44 33.44 32 41 C30.56 33.44 30.56 33.44 23 32 C30.56 30.56 30.56 30.56 32 23Z" fill="url(#xl-sg)" />
+      </symbol>
+      <!-- Logo v5: the mark is the X in "Xellence" (colors follow the theme) -->
+      <symbol id="xl-logo" viewBox="0 0 159.95 24.52"><g transform="translate(-7.74 -8.47) scale(0.63226)"><path d="M23.5 23.5 L16.5 16.5 M40.5 23.5 L47.5 16.5 M23.5 40.5 L16.5 47.5 M40.5 40.5 L47.5 47.5" fill="none" stroke="url(#xl-gu)" stroke-width="6.2" stroke-linecap="round"/><path d="M32 23 C33.44 30.56 33.44 30.56 41 32 C33.44 33.44 33.44 33.44 32 41 C30.56 33.44 30.56 33.44 23 32 C30.56 30.56 30.56 30.56 32 23Z" style="fill: var(--mk-spark)"/></g><path d="M34.763994140625 22.680000000000003Q32.53874450683594 22.680000000000003 30.848994140625003 21.735000000000003Q29.159243774414062 20.790000000000003 28.216868591308593 19.067624816894533Q27.274493408203124 17.345249633789063 27.274493408203124 15.026248168945315V14.666248168945314Q27.274493408203124 12.341997070312502 28.204493408203128 10.622246704101563Q29.134493408203127 8.902496337890627 30.806618957519532 7.957496337890627Q32.47874450683594 7.012496337890628 34.677745971679684 7.012496337890628Q36.841497802734374 7.012496337890628 38.45362335205078 7.966497802734377Q40.065748901367186 8.920499267578126 40.965748901367185 10.624500732421875Q41.86574890136718 12.328502197265626 41.86574890136718 14.598002929687503V15.830256958007816H30.757518310546875Q30.822767944335936 17.570242309570315 31.989386901855468 18.62211090087891Q33.156005859375 19.673979492187502 34.862995605468754 19.673979492187502Q36.53174011230469 19.673979492187502 37.34736053466797 18.941982421875004Q38.16298095703125 18.2099853515625 38.58972839355469 17.28074157714844L41.42249633789062 18.743252563476563Q40.99724670410156 19.560000000000002 40.20224670410157 20.480249633789064Q39.40724670410157 21.400499267578127 38.097745971679686 22.040249633789067Q36.78824523925781 22.680000000000003 34.763994140625 22.680000000000003ZM30.787518310546876 13.23074157714844H38.37747436523438Q38.25747436523437 11.75175476074219 37.25585540771485 10.885135803222658Q36.254236450195314 10.018516845703127 34.652995605468746 10.018516845703127Q33.00750366210937 10.018516845703127 32.013010253906245 10.885135803222658Q31.018516845703125 11.75175476074219 30.787518310546876 13.23074157714844Z M44.82449340820312 22.26V1.2600000000000016H48.25801757812499V22.26Z M52.05449340820312 22.26V1.2600000000000016H55.488017578124996V22.26Z M66.05399414062501 22.680000000000003Q63.82874450683594 22.680000000000003 62.138994140625 21.735000000000003Q60.449243774414064 20.790000000000003 59.506868591308596 19.067624816894533Q58.56449340820313 17.345249633789063 58.56449340820313 15.026248168945315V14.666248168945314Q58.56449340820313 12.341997070312502 59.49449340820313 10.622246704101563Q60.424493408203126 8.902496337890627 62.09661895751954 7.957496337890627Q63.768744506835944 7.012496337890628 65.96774597167969 7.012496337890628Q68.13149780273437 7.012496337890628 69.74362335205078 7.966497802734377Q71.35574890136719 8.920499267578126 72.25574890136718 10.624500732421875Q73.15574890136719 12.328502197265626 73.15574890136719 14.598002929687503V15.830256958007816H62.04751831054688Q62.11276794433594 17.570242309570315 63.279386901855474 18.62211090087891Q64.446005859375 19.673979492187502 66.15299560546876 19.673979492187502Q67.8217401123047 19.673979492187502 68.63736053466798 18.941982421875004Q69.45298095703126 18.2099853515625 69.87972839355469 17.28074157714844L72.71249633789063 18.743252563476563Q72.28724670410156 19.560000000000002 71.49224670410156 20.480249633789064Q70.69724670410156 21.400499267578127 69.38774597167969 22.040249633789067Q68.07824523925781 22.680000000000003 66.05399414062501 22.680000000000003ZM62.07751831054688 13.23074157714844H69.66747436523438Q69.54747436523438 11.75175476074219 68.54585540771484 10.885135803222658Q67.54423645019531 10.018516845703127 65.94299560546875 10.018516845703127Q64.29750366210938 10.018516845703127 63.30301025390625 10.885135803222658Q62.308516845703124 11.75175476074219 62.07751831054688 13.23074157714844Z M76.11449340820313 22.26V7.432496337890628H79.488017578125V9.51373718261719H79.99651977539062Q80.388017578125 8.665491943359378 81.4200146484375 7.92374450683594Q82.45201171875 7.181997070312502 84.51975769042969 7.181997070312502Q86.23350952148438 7.181997070312502 87.54113433837891 7.95337371826172Q88.84875915527344 8.72475036621094 89.5818832397461 10.109251098632814Q90.31500732421875 11.49375183105469 90.31500732421875 13.380000000000003V22.26H86.88148315429687V13.648502197265627Q86.88148315429687 11.842510986328127 85.99086273193359 10.96576354980469Q85.10024230957032 10.089016113281252 83.48624816894531 10.089016113281252Q81.65700439453126 10.089016113281252 80.60251098632813 11.30176208496094Q79.548017578125 12.514508056640627 79.548017578125 14.747246704101563V22.26Z M100.89674743652344 22.680000000000003Q98.7419970703125 22.680000000000003 97.00274597167967 21.77737518310547Q95.26349487304687 20.87475036621094 94.253994140625 19.16475036621094Q93.24449340820313 17.454750366210938 93.24449340820313 15.04574890136719V14.64674743652344Q93.24449340820313 12.232496337890627 94.253994140625 10.525121154785158Q95.26349487304687 8.81774597167969 97.00274597167967 7.915121154785159Q98.7419970703125 7.012496337890628 100.89674743652344 7.012496337890628Q103.02149780273437 7.012496337890628 104.53837371826171 7.770370788574222Q106.05524963378906 8.528245239257815 106.9792510986328 9.827995605468752Q107.90325256347656 11.127745971679689 108.18750366210938 12.73574890136719L104.85823059082031 13.442254028320315Q104.73298095703124 12.495007324218752 104.28148315429686 11.730385437011721Q103.8299853515625 10.96576354980469 103.00986419677734 10.516890563964846Q102.18974304199219 10.068017578125001 100.97099853515624 10.068017578125001Q99.75225402832031 10.068017578125001 98.7768832397461 10.605014648437502Q97.80151245117187 11.142011718750002 97.23976501464844 12.180007324218753Q96.678017578125 13.218002929687502 96.678017578125 14.701497802734377V14.990998535156251Q96.678017578125 16.474493408203127 97.23976501464844 17.512489013671875Q97.80151245117187 18.550484619140626 98.7768832397461 19.087481689453128Q99.75225402832031 19.624478759765626 100.97099853515624 19.624478759765626Q102.80174011230469 19.624478759765626 103.75236053466796 18.676483154296875Q104.70298095703124 17.728487548828127 104.95348022460936 16.225491943359376L108.28275329589843 17.006248168945312Q107.91375183105468 18.564750366210937 106.98450073242188 19.864500732421874Q106.05524963378906 21.164251098632814 104.53837371826171 21.92212554931641Q103.02149780273437 22.680000000000003 100.89674743652344 22.680000000000003Z M117.803994140625 22.680000000000003Q115.57874450683593 22.680000000000003 113.88899414062499 21.735000000000003Q112.19924377441406 20.790000000000003 111.25686859130859 19.067624816894533Q110.31449340820312 17.345249633789063 110.31449340820312 15.026248168945315V14.666248168945314Q110.31449340820312 12.341997070312502 111.24449340820311 10.622246704101563Q112.17449340820312 8.902496337890627 113.84661895751952 7.957496337890627Q115.51874450683593 7.012496337890628 117.71774597167968 7.012496337890628Q119.88149780273436 7.012496337890628 121.49362335205078 7.966497802734377Q123.10574890136718 8.920499267578126 124.00574890136718 10.624500732421875Q124.90574890136718 12.328502197265626 124.90574890136718 14.598002929687503V15.830256958007816H113.79751831054686Q113.86276794433593 17.570242309570315 115.02938690185546 18.62211090087891Q116.19600585937499 19.673979492187502 117.90299560546873 19.673979492187502Q119.57174011230468 19.673979492187502 120.38736053466796 18.941982421875004Q121.20298095703124 18.2099853515625 121.62972839355467 17.28074157714844L124.46249633789061 18.743252563476563Q124.03724670410155 19.560000000000002 123.24224670410155 20.480249633789064Q122.44724670410156 21.400499267578127 121.13774597167968 22.040249633789067Q119.8282452392578 22.680000000000003 117.803994140625 22.680000000000003ZM113.82751831054686 13.23074157714844H121.41747436523437Q121.29747436523436 11.75175476074219 120.29585540771484 10.885135803222658Q119.2942364501953 10.018516845703127 117.69299560546874 10.018516845703127Q116.04750366210936 10.018516845703127 115.05301025390624 10.885135803222658Q114.05851684570311 11.75175476074219 113.82751831054686 13.23074157714844Z" style="fill: var(--logo-word)"/><path d="M134.34750659179684 22.26 140.8260362548828 1.2600000000000016H145.25515979003904L151.73368945312498 22.26H149.1234349365234L147.51482043457028 16.95837890625H138.56637561035154L136.95776110839842 22.26ZM139.2194670410156 14.661621093750002H146.86172900390622L143.24669604492186 2.791470336914063H142.8345Z M154.30051318359375 22.26V1.2600000000000016H156.812068359375V22.26Z" style="fill: var(--brand-ai)"/></symbol>
+    </svg>
+
+    <div class="backdrop" aria-hidden="true"></div>
 
     <div class="page-shell">
       <header class="site-header">
         <a class="brand" href="#top" aria-label="Xellence AI home">
-          <img src="./logo.svg" alt="Xellence AI" />
+          <svg class="brand-logo" aria-hidden="true"><use href="#xl-logo" /></svg><span class="brand-tm" aria-hidden="true">&trade;</span>
         </a>
-        <nav class="site-nav" aria-label="Primary">
-          <a href="#solutions"><span class="nav-num">01</span>Solutions</a>
-          <a href="#beliefs"><span class="nav-num">02</span>Beliefs</a>
-          <a href="#profile"><span class="nav-num">03</span>Profile</a>
-          <a href="#contact" class="nav-cta">Contact <span aria-hidden="true">&rarr;</span></a>
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch to light mode">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" /><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4" /></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" /></svg>
+        </button>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <a href="#results">Results</a>
+          <a href="#on-prem">Why on-prem</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#how">How it works</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact" class="nav-cta">Talk to us</a>
         </nav>
       </header>
 
       <main id="top">
+        <!-- ============ HERO ============ -->
         <section class="hero">
           <div class="hero-meta">
             <span class="dot"></span>
-            <span class="mono-label">AI · Systems Integration · Operations</span>
+            <span class="eyebrow">Private AI for small &amp; mid-sized businesses</span>
           </div>
           <h1 class="hero-title">
-            <span class="gradient-text">Intelligence,</span> wired into the
-            systems that actually run your business.
+            Multiply what your team can do with AI that <span class="gradient-text">stays under your&nbsp;roof</span>.
           </h1>
           <p class="hero-lead">
-            We engineer AI systems and integrations that are correct, observable, and built to run in production —
-            across industrial, operational, and digital environments.
+            We enable private AI on your premises and put it to work on everyday tasks. Your data stays yours, your
+            costs stay predictable, and your team gets more done.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#contact">
-              Start a conversation
-              <span aria-hidden="true">&rarr;</span>
-            </a>
-            <a class="button button-ghost" href="#beliefs">Explore our approach</a>
+            <a class="hero-link hero-link-primary" href="#contact">Talk to us <span aria-hidden="true">&rarr;</span></a>
+            <a class="hero-link" href="#results">See the results <span aria-hidden="true">&darr;</span></a>
           </div>
 
-          <div class="hero-stack">
-            <div class="stack-card mantra-card">
-              <p class="mono-label">// Core mantra</p>
-              <p class="mantra">
-                <span>Collaboration,</span>
-                <span>Quality,</span>
-                <span class="gradient-text">and The Future.</span>
-              </p>
-            </div>
-            <div class="stack-card stack-card-stats">
-              <div>
-                <p class="stat-num">20<span>+</span></p>
-                <p class="mono-label">years engineering</p>
-              </div>
-              <div>
-                <p class="stat-num">10<span>+</span></p>
-                <p class="mono-label">years product &amp; services leadership</p>
-              </div>
-              <div>
-                <p class="stat-num">E2E</p>
-                <p class="mono-label">data, models, integration, ops</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="intro">
-          <p class="intro-lead">
-            We work across AI adoption, systems integration, industrial IoT, network connectivity, cloud services,
-            web interfaces, and applied cryptography.
-          </p>
-          <p class="intro-lead">
-            Every engagement is judged on accuracy, reliability, and efficiency — and ends with software your team
-            can operate.
-          </p>
-        </section>
-
-        <section class="section solutions" id="solutions">
-          <header class="section-head">
-            <p class="mono-label">// 01 — What we deliver</p>
-            <h2>Delivery built around <span class="gradient-text">AI and systems integration</span>.</h2>
-          </header>
-
-          <div class="solution-grid">
-            <article class="card solution-card">
-              <p class="card-index">01</p>
-              <h3>AI Readiness &amp; Roadmaps</h3>
-              <p>
-                Turn business goals into AI programs with the engineering decisions made explicit: data, evaluation,
-                architecture, and operations.
-              </p>
-              <ul class="tag-row">
-                <li>Data pipelines</li>
-                <li>Evaluation</li>
-                <li>Architecture</li>
-              </ul>
-            </article>
-            <article class="card solution-card">
-              <p class="card-index">02</p>
-              <h3>Enterprise &amp; Operational Integration</h3>
-              <p>
-                Connect legacy systems, cloud, edge, and partner APIs into workflows that are deterministic where
-                they must be and observable end-to-end.
-              </p>
-              <ul class="tag-row">
-                <li>APIs &amp; events</li>
-                <li>Edge / cloud</li>
-                <li>Observability</li>
-              </ul>
-            </article>
-            <article class="card solution-card">
-              <p class="card-index">03</p>
-              <h3>Industrial Intelligence</h3>
-              <p>
-                Real-time analytics, control automation, and decision support — built for the latency, safety, and
-                reliability constraints of field and rail.
-              </p>
-              <ul class="tag-row">
-                <li>IIoT</li>
-                <li>Rail / PTC</li>
-                <li>Realtime analytics</li>
-              </ul>
-            </article>
-            <article class="card solution-card">
-              <p class="card-index">04</p>
-              <h3>Secure Digital Products</h3>
-              <p>
-                Web interfaces, cloud services, and cryptography-aware platforms for regulated, mission-critical
-                workloads — security and correctness designed in, not bolted on.
-              </p>
-              <ul class="tag-row">
-                <li>Web UI</li>
-                <li>Cloud</li>
-                <li>Cryptography</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section class="section beliefs" id="beliefs">
-          <header class="section-head">
-            <p class="mono-label">// 02 — What we believe</p>
-            <h2>The ideas that continue to define <span class="gradient-text">Team Xellence</span>.</h2>
-          </header>
-
-          <div class="belief-grid">
-            <article class="card belief-card">
-              <div class="belief-head">
-                <span class="belief-marker">01</span>
-                <h3>Collaboration</h3>
-              </div>
-              <p>
-                We build alongside our customers, not around them. Open communication and shared decisions surface
-                the real constraints early — so the system we deliver reflects actual requirements, not
-                assumptions.
-              </p>
-            </article>
-            <article class="card belief-card">
-              <div class="belief-head">
-                <span class="belief-marker">02</span>
-                <h3>Quality</h3>
-              </div>
-              <p>
-                Quality is engineered, not promised. Rigorous reviews, automated tests, and measurable acceptance
-                criteria — every release held to the same standard, every regression traced to its cause.
-              </p>
-            </article>
-            <article class="card belief-card">
-              <div class="belief-head">
-                <span class="belief-marker">03</span>
-                <h3>The Future</h3>
-              </div>
-              <p>
-                We build for what's next without breaking what works today. New tools and techniques are evaluated
-                on the merits — adopted when they earn their place, deferred when they don't.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section class="section profile" id="profile">
-          <header class="section-head">
-            <p class="mono-label">// 03 — Leadership</p>
-            <h2>Built from the ground up.</h2>
-          </header>
-
-          <div class="profile-grid card">
-            <figure class="profile-photo-frame">
-              <img
-                class="profile-photo"
-                src="./jeffrey-chang.jpg"
-                alt="Jeffrey Chang"
-                loading="lazy"
-              />
-              <figcaption>
-                <span class="profile-name">Jeffrey Chang</span>
-              </figcaption>
-            </figure>
-            <div class="profile-copy">
-              <p>
-                20+ years across systems integration, virtualization, network connectivity, and industrial IoT —
-                now directed toward practical AI engineering.
-              </p>
-              <p>
-                Current focus: inferencing platforms and agentic applications, grounded in the reliability,
-                observability, and integration practices carried over from systems and IIoT work.
-              </p>
-              <ul class="affiliation-list">
-                <li>Owner — <a href="https://xellence.ai" target="_blank" rel="noopener noreferrer">Xellence AI</a></li>
-                <li>Co-Founder &amp; COO — <a href="https://nurol.ai" target="_blank" rel="noopener noreferrer">Nurol AI</a></li>
-              </ul>
-              <ul class="chip-row">
-                <li>Systems Integration</li>
-                <li>Industrial IoT</li>
-                <li>Network Connectivity</li>
-                <li>Virtualization</li>
-                <li>Inferencing Platforms</li>
-                <li>Agentic Applications</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <section class="section contact" id="contact">
-          <div class="contact-card card">
+          <div class="hero-strip">
             <div>
-              <p class="mono-label">// Contact Team Xellence</p>
-              <h2>
-                Build the next integration layer with
-                <span class="gradient-text">AI at the center.</span>
-              </h2>
-              <p class="contact-sub">
-                Tell us what you need to connect, automate, or ship. We'll start from the engineering reality and
-                work back to a plan.
-              </p>
+              <h4>Your data stays yours</h4>
+              <p>Kept on your own equipment.</p>
             </div>
-            <a class="button button-primary contact-cta" href="mailto:hello@xellence.ai">
-              hello@xellence.ai
-              <span aria-hidden="true">&rarr;</span>
-            </a>
+            <div>
+              <h4>Predictable costs</h4>
+              <p>No per-seat fees as you grow.</p>
+            </div>
+            <div>
+              <h4>No AI team needed</h4>
+              <p>We set it up and keep it running.</p>
+            </div>
+            <div>
+              <h4>Measurable results</h4>
+              <p>Goals agreed before we start.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ PAIN POINTS ============ -->
+        <section id="challenges">
+          <header class="section-head">
+            <p class="eyebrow"><span class="n">01</span>Sound familiar?</p>
+            <h2>What we hear from <span class="gradient-text">business owners</span>.</h2>
+            <p class="lead">They want the benefits of AI, without the enterprise budget or the risk.</p>
+          </header>
+
+          <div class="carousel" data-dwell="6" aria-label="What business owners tell us">
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <article class="card pain">
+                  <blockquote>Our people already paste customer data into public AI tools.</blockquote>
+                  <p>You can't see it, and you can't take it back.</p>
+                </article>
+                <article class="card pain">
+                  <blockquote>AI bills keep growing, and I can't predict them.</blockquote>
+                  <p>Every new hire and every new tool adds another fee.</p>
+                </article>
+                <article class="card pain">
+                  <blockquote>We don't have an AI team, or the time to build one.</blockquote>
+                  <p>You need results, not a new department.</p>
+                </article>
+                <article class="card pain">
+                  <blockquote>There are hundreds of AI tools. Where do we start?</blockquote>
+                  <p>You need to know which tasks are worth automating first.</p>
+                </article>
+                <article class="card pain">
+                  <blockquote>Our customers ask where their data goes.</blockquote>
+                  <p>Contracts and industry rules demand a clear answer.</p>
+                </article>
+                <article class="card pain">
+                  <blockquote>We tried AI once. It never stuck.</blockquote>
+                  <p>Most AI tools never connect to your files, your systems, or the way your team works.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ RESULTS / MULTIPLIER ============ -->
+        <section id="results">
+          <header class="section-head">
+            <p class="eyebrow"><span class="n">02</span>Results, multiplied</p>
+            <h2>The same team, <span class="gradient-text">many times the output</span>.</h2>
+            <p class="lead">AI pays off most on the repetitive work that fills your team's day.</p>
+          </header>
+
+          <div class="multiplier">
+            <article class="card mult">
+              <svg class="x" aria-hidden="true"><use href="#xl-spark" /></svg>
+              <h3>Output per person</h3>
+              <p>Drafting, summarizing, and routine answers take minutes, not hours.</p>
+              <div class="from-to"><span>Before: hours of paperwork</span><strong>After: more time for customers</strong></div>
+            </article>
+            <article class="card mult">
+              <svg class="x" aria-hidden="true"><use href="#xl-spark" /></svg>
+              <h3>Speed to customers</h3>
+              <p>Quotes and replies go out the same day, drafted from your own materials.</p>
+              <div class="from-to"><span>Before: customers wait days</span><strong>After: same-day answers</strong></div>
+            </article>
+            <article class="card mult">
+              <svg class="x" aria-hidden="true"><use href="#xl-spark" /></svg>
+              <h3>Company know-how</h3>
+              <p>Manuals, contracts, and past projects answer questions on the spot.</p>
+              <div class="from-to"><span>Before: knowledge in a few heads</span><strong>After: answers in seconds</strong></div>
+            </article>
+            <article class="card mult">
+              <svg class="x" aria-hidden="true"><use href="#xl-spark" /></svg>
+              <h3>Value per dollar</h3>
+              <p>One system serves the whole team, with no fee for each new hire.</p>
+              <div class="from-to"><span>Before: costs grow with every seat</span><strong>After: one predictable cost</strong></div>
+            </article>
+          </div>
+
+          <div class="promise">
+            <svg aria-hidden="true"><use href="#xl-spark" /></svg>
+            <p>
+              <strong>No vague promises.</strong> We agree on the numbers up front, such as hours saved or response time, and measure them against your real work.
+            </p>
+          </div>
+        </section>
+
+        <!-- ============ WHY ON-PREM ============ -->
+        <section id="on-prem">
+          <header class="section-head">
+            <p class="eyebrow"><span class="n">03</span>Why on-premises</p>
+            <h2>Your AI, <span class="gradient-text">on your terms</span>.</h2>
+            <p class="lead">Public AI is easy to start with and hard to control. Private AI puts you in charge.</p>
+          </header>
+
+          <div class="card compare-card">
+            <table class="compare">
+              <thead>
+                <tr><th>What matters</th><th>Public AI subscriptions</th><th class="us">Private AI with Xellence</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Your data</th><td class="them">Sent to outside servers</td><td class="us">Stays on your premises</td></tr>
+                <tr><th scope="row">Cost</th><td class="them">Per user, per month, plus usage</td><td class="us">A system you own, with predictable costs</td></tr>
+                <tr><th scope="row">Access</th><td class="them">Everyone signs up on their own</td><td class="us">You decide who uses what, and every use is logged</td></tr>
+                <tr><th scope="row">Knows your business</th><td class="them">Only what you upload to a third party</td><td class="us">Connected privately to your documents and systems</td></tr>
+                <tr><th scope="row">Internet outage</th><td class="them">Stops working</td><td class="us">Keeps working</td></tr>
+                <tr><th scope="row">Flexibility</th><td class="them">Locked to one provider</td><td class="us">Your choice of AI models, free to switch</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="compare-note">
+            <strong>Best of both:</strong> keep sensitive work in-house, and send routine tasks to cloud AI under your
+            rules.
+          </p>
+        </section>
+
+        <!-- ============ SOLUTIONS ============ -->
+        <section id="solutions">
+          <header class="section-head">
+            <p class="eyebrow"><span class="n">04</span>What we deliver</p>
+            <h2>Everything you need, <span class="gradient-text">from one partner</span>.</h2>
+            <p class="lead">Planning, equipment, setup, and support, all handled for you.</p>
+          </header>
+
+          <div class="carousel" data-dwell="6" aria-label="What we deliver">
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <article class="card solution-card">
+                  <p class="card-index">01</p>
+                  <h3>AI Opportunity Assessment</h3>
+                  <p>We find where AI saves you the most, then give you a clear plan and a fixed quote.</p>
+                </article>
+                <article class="card solution-card">
+                  <p class="card-index">02</p>
+                  <h3>Private AI, On Your Premises</h3>
+                  <p>A system sized for your team, ready to use from day one.</p>
+                </article>
+                <article class="card solution-card">
+                  <p class="card-index">03</p>
+                  <h3>AI Assistants for Your Work</h3>
+                  <p>Customer service, quotes, document review, and reporting, all drawing on your own documents.</p>
+                </article>
+                <article class="card solution-card">
+                  <p class="card-index">04</p>
+                  <h3>Connected to Your Tools</h3>
+                  <p>Email, files, CRM, ERP, and accounting, so AI works where your team already works.</p>
+                </article>
+                <article class="card solution-card">
+                  <p class="card-index">05</p>
+                  <h3>Security &amp; Access Control</h3>
+                  <p>Sign in with company accounts, set permissions by role, and keep a record of every use.</p>
+                </article>
+                <article class="card solution-card">
+                  <p class="card-index">06</p>
+                  <h3>Training &amp; Support</h3>
+                  <p>Hands-on training, ongoing support, and new uses whenever your team is ready.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <!-- Powered by Nurol -->
+          <div id="powered-by" class="card powered">
+            <div class="powered-lead">
+              <p class="eyebrow">Powered by</p>
+              <a class="nurol-badge" href="https://nurol.ai" target="_blank" rel="noopener noreferrer" aria-label="Nurol AI website">
+                <img src="./nurol-logo.svg" alt="Nurol" />
+              </a>
+              <p>Our solutions are built on Nurol AI's private AI products, which our team sets up and integrates for you.</p>
+            </div>
+            <div class="powered-products">
+              <div class="product">
+                <h3>NurOS&trade;</h3>
+                <p>The private AI platform. Runs AI models on your own hardware, under your rules.</p>
+              </div>
+              <div class="product">
+                <h3>NuroMAX&trade;</h3>
+                <p>No-code AI agents for IT operations, help desk, reporting, and more.</p>
+              </div>
+              <a class="powered-link" href="https://nurol.ai" target="_blank" rel="noopener noreferrer">Learn more at nurol.ai <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============ HOW IT WORKS ============ -->
+        <section id="how">
+          <header class="section-head">
+            <p class="eyebrow"><span class="n">05</span>How it works</p>
+            <h2>Four steps, <span class="gradient-text">no surprises</span>.</h2>
+          </header>
+
+          <div class="steps">
+            <article class="step">
+              <h3>Talk</h3>
+              <p>An open conversation about your goals and where your team's time goes.</p>
+            </article>
+            <article class="step">
+              <h3>Plan</h3>
+              <p>We choose the first tasks, size the system, and give you a fixed quote.</p>
+            </article>
+            <article class="step">
+              <h3>Set up</h3>
+              <p>We set up and test everything on-site, then train your team.</p>
+            </article>
+            <article class="step">
+              <h3>Grow</h3>
+              <p>We review results together and add new uses when you're ready.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- ============ FAQ ============ -->
+        <section id="faq">
+          <header class="section-head">
+            <p class="eyebrow"><span class="n">06</span>Questions owners ask</p>
+            <h2>Before you <span class="gradient-text">decide</span>.</h2>
+          </header>
+
+          <div class="faq">
+            <details open>
+              <summary>How do you work with our IT team?</summary>
+              <p>As partners. Your IT team stays in charge of your systems, and we bring the AI expertise, from setup to training and support. If you don't have an IT team, we take care of it all for you.</p>
+            </details>
+            <details>
+              <summary>Is my business big enough?</summary>
+              <p>If several people spend their days on customers, documents, or reports, yes. We size the system to your team.</p>
+            </details>
+            <details>
+              <summary>What does it cost?</summary>
+              <p>It depends on your team and goals. After the assessment, you get a fixed quote for equipment, setup, and support, with no per-seat fees.</p>
+            </details>
+            <details>
+              <summary>Is private AI as capable as public AI?</summary>
+              <p>For everyday work like writing, summarizing, and searching documents, yes. When a task needs more, non-sensitive work can go to a cloud service under your rules.</p>
+            </details>
+            <details>
+              <summary>Will our data be used to train someone else's AI?</summary>
+              <p>No. Your data stays on your equipment and is never shared without your permission.</p>
+            </details>
+          </div>
+        </section>
+
+        <!-- ============ WHO WE ARE + CONTACT ============ -->
+        <section id="contact" class="meet">
+          <span id="about" class="anchor" aria-hidden="true"></span>
+          <div class="card meet-card">
+            <div class="meet-main">
+              <p class="eyebrow"><span class="n">07</span>Who we are &middot; Get in touch</p>
+              <h2>Let's find where AI can <span class="gradient-text">multiply your business</span>.</h2>
+              <p class="meet-lead">Tell us which tasks eat up your team's time. We'll show you where private AI pays off, and where it doesn't.</p>
+              <a class="button button-primary contact-cta" href="mailto:hello@xellence.ai">hello@xellence.ai <span aria-hidden="true">&rarr;</span></a>
+
+              <a class="meet-owner" href="./profile/" aria-label="Meet the owner, Jeffrey Chang: your hands-on partner. View profile">
+                <img src="./jeffrey-chang.jpg" alt="" width="52" height="64" loading="lazy" />
+                <span class="meet-owner-text">
+                  <span class="eyebrow">Meet the owner</span>
+                  <strong>Jeffrey Chang</strong>
+                  <span>Your hands-on partner, invested in every problem you bring.</span>
+                </span>
+              </a>
+            </div>
+
+            <div class="meet-side">
+              <p class="eyebrow">What drives Team Xellence</p>
+              <ul class="values">
+                <li>
+                  <span class="value-n">01</span>
+                  <div><h3>Collaboration</h3><p>We learn how your business works before we recommend anything.</p></div>
+                </li>
+                <li>
+                  <span class="value-n">02</span>
+                  <div><h3>Quality</h3><p>Every system is tested and measured against the goals we set together.</p></div>
+                </li>
+                <li>
+                  <span class="value-n">03</span>
+                  <div><h3>The Future</h3><p>We adopt new AI when it earns its place, not because it's the latest trend.</p></div>
+                </li>
+              </ul>
+
+              <div class="also">
+                <span class="eyebrow">Backed by 20+ years in</span>
+                <ul class="chip-row">
+                  <li>Systems integration</li>
+                  <li>Industrial IoT</li>
+                  <li>Networking</li>
+                  <li>Cloud &amp; web</li>
+                  <li>Data security</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <div class="footer-row">
-          <img src="./logo-mark.svg" alt="" class="footer-mark" aria-hidden="true" />
-          <p class="mono-label">&copy; <span id="year">2025</span> Xellence AI · AI &amp; Systems Integration</p>
+        <a class="brand" href="#top" aria-label="Xellence AI home">
+          <svg class="brand-logo" aria-hidden="true"><use href="#xl-logo" /></svg><span class="brand-tm" aria-hidden="true">&trade;</span>
+        </a>
+        <span class="eyebrow">Collaboration · Quality · The Future</span>
+        <div class="legal">
+          <p>&copy; 2024&ndash;2026 Xellence Solutions LLC. All rights reserved. Xellence AI&trade; and the Xellence AI logo are trademarks of Xellence Solutions LLC.</p>
+          <p>
+            NurOS&trade; and NuroMAX&trade; are products of Nurol, Inc. &copy; 2025&ndash;2026 Nurol, Inc. All rights
+            reserved. Nurol, NurOS&trade;, NuroMAX&trade; and NuroTab&trade; are trademarks of Nurol, Inc.
+          </p>
         </div>
-        <p class="mono-label footer-tag">Collaboration · Quality · The Future</p>
       </footer>
     </div>
 

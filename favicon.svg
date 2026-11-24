@@ -1,12 +1,12 @@
-<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="12 12 40 40">
+  <style>
+    .arms { stroke: url(#fd); } .spark { fill: #F4F7FF; }
+    @media (prefers-color-scheme: light) { .arms { stroke: url(#fl); } .spark { fill: #0B1124; } }
+  </style>
   <defs>
-    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#5ee0ff"/>
-      <stop offset="100%" stop-color="#a974ff"/>
-    </linearGradient>
+    <linearGradient id="fd" gradientUnits="userSpaceOnUse" x1="13" y1="13" x2="51" y2="51"><stop offset="0" stop-color="#4FD8F5"/><stop offset=".5" stop-color="#6E8BFF"/><stop offset="1" stop-color="#8F7BFF"/></linearGradient>
+    <linearGradient id="fl" gradientUnits="userSpaceOnUse" x1="13" y1="13" x2="51" y2="51"><stop offset="0" stop-color="#0FA5C8"/><stop offset=".5" stop-color="#4A63E8"/><stop offset="1" stop-color="#6A4DE8"/></linearGradient>
   </defs>
-  <rect width="64" height="64" rx="14" fill="#0b1124"/>
-  <path d="M14 14 L50 50" stroke="url(#fg)" stroke-width="7" stroke-linecap="round" fill="none"/>
-  <path d="M50 14 L14 50" stroke="url(#fg)" stroke-width="7" stroke-linecap="round" fill="none"/>
-  <circle cx="32" cy="32" r="4" fill="#0b1124" stroke="url(#fg)" stroke-width="1.6"/>
+  <path class="arms" d="M23.5 23.5 L16.5 16.5 M40.5 23.5 L47.5 16.5 M23.5 40.5 L16.5 47.5 M40.5 40.5 L47.5 47.5" fill="none" stroke-width="6.6" stroke-linecap="round"/>
+  <path class="spark" d="M32 23 C33.44 30.56 33.44 30.56 41 32 C33.44 33.44 33.44 33.44 32 41 C30.56 33.44 30.56 33.44 23 32 C30.56 30.56 30.56 30.56 32 23Z"/>
 </svg>

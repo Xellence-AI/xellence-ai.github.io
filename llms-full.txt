@@ -1,109 +1,196 @@
-# Xellence AI — AI and Systems Integration
+# Xellence AI — Private AI for Small & Mid-Sized Businesses
 
 ## Summary
 
-Xellence AI engineers practical AI systems and integrations for industrial,
-enterprise, and operational environments. We design AI-enabled systems and
-integrations that are correct, observable, and built to run in production —
-across industrial, operational, and digital environments.
+Xellence AI enables private, on-premises AI for small and mid-sized businesses
+and puts it to work on everyday tasks. Your data stays yours, your costs stay
+predictable, and your team gets more done.
 
-Tagline: AI · Systems Integration · Operations
-Mantra: Collaboration, Quality, and The Future.
-Founder: Jeffrey Chang
+Headline: Multiply what your team can do with AI that stays under your roof.
+Values: Collaboration · Quality · The Future
+Company: Xellence AI (Xellence Solutions LLC)
+Owner: Jeffrey Chang
+Location: North America
 Contact: hello@xellence.ai
 Website: https://xellence.ai
+Powered by: Nurol AI's NurOS™ and NuroMAX™
+
+At a glance:
+- Your data stays yours: kept on your own equipment.
+- Predictable costs: no per-seat fees as you grow.
+- No AI team needed: we set it up and keep it running.
+- Measurable results: goals agreed before we start.
 
 ---
 
-## About
+## Sound familiar? What we hear from business owners
 
-We engineer AI systems and integrations that are correct, observable, and built
-to run in production — across industrial, operational, and digital environments.
+They want the benefits of AI, without the enterprise budget or the risk.
 
-We work across AI adoption, systems integration, industrial IoT, network
-connectivity, cloud services, web interfaces, and applied cryptography.
-
-Every engagement is judged on accuracy, reliability, and efficiency — and ends
-with software your team can operate.
-
----
-
-## What we deliver
-
-### 1. AI Readiness & Roadmaps
-
-Turn business goals into AI programs with the engineering decisions made
-explicit: data, evaluation, architecture, and operations.
-
-Focus areas: data pipelines, evaluation, architecture.
-
-### 2. Enterprise & Operational Integration
-
-Connect legacy systems, cloud, edge, and partner APIs into workflows that are
-deterministic where they must be and observable end-to-end.
-
-Focus areas: APIs & events, edge / cloud, observability.
-
-### 3. Industrial Intelligence
-
-Real-time analytics, control automation, and decision support — built for the
-latency, safety, and reliability constraints of field and rail.
-
-Focus areas: industrial IoT (IIoT), rail, real-time analytics.
-
-### 4. Secure Digital Products
-
-Web interfaces, cloud services, and cryptography-aware platforms for regulated,
-mission-critical workloads — security and correctness designed in, not bolted
-on.
-
-Focus areas: web UI, cloud, cryptography.
+- "Our people already paste customer data into public AI tools."
+  You can't see it, and you can't take it back.
+- "AI bills keep growing, and I can't predict them."
+  Every new hire and every new tool adds another fee.
+- "We don't have an AI team, or the time to build one."
+  You need results, not a new department.
+- "There are hundreds of AI tools. Where do we start?"
+  You need to know which tasks are worth automating first.
+- "Our customers ask where their data goes."
+  Contracts and industry rules demand a clear answer.
+- "We tried AI once. It never stuck."
+  Most AI tools never connect to your files, your systems, or the way your team works.
 
 ---
 
-## What we believe
+## Results, multiplied: the same team, many times the output
+
+AI pays off most on the repetitive work that fills your team's day.
+
+### Output per person
+Drafting, summarizing, and routine answers take minutes, not hours.
+Before: hours of paperwork. After: more time for customers.
+
+### Speed to customers
+Quotes and replies go out the same day, drafted from your own materials.
+Before: customers wait days. After: same-day answers.
+
+### Company know-how
+Manuals, contracts, and past projects answer questions on the spot.
+Before: knowledge in a few heads. After: answers in seconds.
+
+### Value per dollar
+One system serves the whole team, with no fee for each new hire.
+Before: costs grow with every seat. After: one predictable cost.
+
+No vague promises. We agree on the numbers up front, such as hours saved or response time, and measure them against your real work.
+
+---
+
+## Why on-premises: your AI, on your terms
+
+Public AI is easy to start with and hard to control. Private AI puts you in charge.
+
+| What matters        | Public AI subscriptions               | Private AI with Xellence                           |
+|---------------------|---------------------------------------|----------------------------------------------------|
+| Your data           | Sent to outside servers               | Stays on your premises                             |
+| Cost                | Per user, per month, plus usage       | A system you own, with predictable costs           |
+| Access              | Everyone signs up on their own        | You decide who uses what, and every use is logged  |
+| Knows your business | Only what you upload to a third party | Connected privately to your documents and systems  |
+| Internet outage     | Stops working                         | Keeps working                                      |
+| Flexibility         | Locked to one provider                | Your choice of AI models, free to switch           |
+
+Best of both: keep sensitive work in-house, and send routine tasks to cloud AI
+under your rules.
+
+---
+
+## What we deliver: everything you need, from one partner
+
+Planning, equipment, setup, and support, all handled for you.
+
+1. AI Opportunity Assessment: we find where AI saves you the most, then give
+   you a clear plan and a fixed quote.
+2. Private AI, On Your Premises: a system sized for your team, ready to use
+   from day one.
+3. AI Assistants for Your Work: customer service, quotes, document review,
+   and reporting, all drawing on your own documents.
+4. Connected to Your Tools: email, files, CRM, ERP, and accounting, so AI works
+   where your team already works.
+5. Security & Access Control: sign in with company accounts, set permissions by
+   role, and keep a record of every use.
+6. Training & Support: hands-on training, ongoing support, and new uses whenever your team is ready.
+
+---
+
+## Powered by Nurol AI
+
+Our solutions are built on Nurol AI's private AI products, which our team sets up and integrates for you. Learn more at https://nurol.ai
+
+- NurOS™: the private AI platform. Runs AI models on your own hardware, under
+  your rules.
+- NuroMAX™: no-code AI agents for IT operations, help desk, reporting, and more.
+
+---
+
+## How it works: four steps, no surprises
+
+1. Talk: an open conversation about your goals and where your team's time goes.
+2. Plan: we choose the first tasks, size the system, and give you a fixed quote.
+3. Set up: we set up and test everything on-site, then train your team.
+4. Grow: we review results together and add new uses when you're ready.
+
+---
+
+## Questions owners ask
+
+### How do you work with our IT team?
+As partners. Your IT team stays in charge of your systems, and we bring the AI expertise, from setup to training and support. If you don't have an IT team, we take care of it all for you.
+
+### Is my business big enough?
+If several people spend their days on customers, documents, or reports, yes.
+We size the system to your team.
+
+### What does it cost?
+It depends on your team and goals. After the assessment, you get a fixed quote
+for equipment, setup, and support, with no per-seat fees.
+
+### Is private AI as capable as public AI?
+For everyday work like writing, summarizing, and searching documents, yes. When
+a task needs more, non-sensitive work can go to a cloud service under your
+rules.
+
+### Will our data be used to train someone else's AI?
+No. Your data stays on your equipment and is never shared without your permission.
+
+---
+
+## Who we are · Get in touch
+
+What drives Team Xellence:
 
 ### Collaboration
-
-We build alongside our customers, not around them. Open communication and
-shared decisions surface the real constraints early — so the system we deliver
-reflects actual requirements, not assumptions.
+We learn how your business works before we recommend anything.
 
 ### Quality
-
-Quality is engineered, not promised. Rigorous reviews, automated tests, and
-measurable acceptance criteria — every release held to the same standard,
-every regression traced to its cause.
+Every system is tested and measured against the goals we set together.
 
 ### The Future
+We adopt new AI when it earns its place, not because it's the latest trend.
 
-We build for what's next without breaking what works today. New tools and
-techniques are evaluated on the merits — adopted when they earn their place,
-deferred when they don't.
+Backed by 20+ years in systems integration, industrial IoT, networking,
+cloud & web, and data security.
 
----
+### Jeffrey Chang — Owner, Xellence AI
+20+ years in systems integration, virtualization, networking, and industrial
+IoT. Jeffrey brings large-scale engineering discipline to businesses that want
+results from AI, without the risk, the jargon, or the enterprise price tag.
 
-## Leadership
-
-### Jeffrey Chang — Founder
-
-Jeffrey Chang founded Xellence AI to apply 20+ years of systems integration,
-virtualization, network connectivity, and industrial IoT to practical AI
-engineering.
-
-Most recently, he's focused on building inferencing platforms and agentic
-applications — grounded in the reliability, observability, and integration
-practices carried over from his systems and IIoT work.
-
-Areas of expertise: systems integration, industrial IoT, network connectivity,
-virtualization, inferencing platforms, agentic applications.
+Roles: Owner, Xellence AI (https://xellence.ai); Co-Founder & COO, Nurol AI
+(https://nurol.ai).
+Profile page: https://xellence.ai/profile/
+LinkedIn: https://www.linkedin.com/in/jeffsschang/
+Current focus: private AI, inference platforms, and agentic applications.
 
 ---
 
 ## Contact
 
-Tell us what you need to connect, automate, or ship. We'll start from the
-engineering reality and work back to a plan.
+Let's find where AI can multiply your business. Tell us which tasks eat up your team's time. We'll show you where private AI pays off, and where it doesn't.
 
 Email: hello@xellence.ai
 Website: https://xellence.ai
+
+---
+
+## Brand
+
+The Xellence AI logo is the name "Xellence AI" with the core-spark mark (four
+arms around a central spark) standing in for the X. In plain text, always write
+"Xellence AI".
+
+---
+
+© 2024–2026 Xellence Solutions LLC. All rights reserved.
+NurOS™ and NuroMAX™ are products of Nurol, Inc. © 2025–2026 Nurol, Inc. All
+rights reserved. Nurol, NurOS™, NuroMAX™ and NuroTab™ are trademarks of
+Nurol, Inc.

@@ -1,0 +1,8 @@
+# Files Cloudflare should not publish (the whole folder is the site, see wrangler.jsonc)
+.git
+.gitignore
+.assetsignore
+.wrangler
+.dev.vars*
+.env*
+wrangler.jsonc
